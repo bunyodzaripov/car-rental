@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.containers {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
