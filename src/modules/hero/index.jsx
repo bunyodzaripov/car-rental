@@ -32,7 +32,7 @@ function Hero() {
   ];
 
   return (
-    <div className="relative">
+    <section className="relative">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop
@@ -82,7 +82,7 @@ function Hero() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

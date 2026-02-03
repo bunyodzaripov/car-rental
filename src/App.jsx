@@ -1,4 +1,4 @@
-import { Brands, Header, Hero, Safe, Services } from "./modules";
+import { Brands, Footer, Header, Hero, Safe, Services } from "./modules";
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
         <Services />
         <Safe />
       </div>
+      <Footer />
     </>
   );
 };

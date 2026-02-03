@@ -30,7 +30,7 @@ function Services() {
   ];
 
   return (
-    <div className="flex items-center justify-center">
+    <section className="flex items-center justify-center">
       <div>
         <h2 className="text-[36px] font-semibold text-center mb-2.5">
           Unparalleled service
@@ -47,7 +47,7 @@ function Services() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

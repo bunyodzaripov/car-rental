@@ -19,7 +19,7 @@ function Safe() {
   ];
 
   return (
-    <div className="my-40 py-10 px-8 rounded-[20px] border-[1.5px] border-[#E5E7EA] flex gap-23 relative">
+    <section className="my-40 py-10 px-8 rounded-[20px] border-[1.5px] border-[#E5E7EA] flex gap-23 relative">
       <div className="flex flex-col justify-between">
         <div>
           <h2 className="text-[36px] font-semibold mb-2.5">
@@ -46,7 +46,7 @@ function Safe() {
 
         <img src={Man} alt="Men " className="relative -bottom-10 z-10" />
       </div>
-    </div>
+    </section>
   );
 }
 
