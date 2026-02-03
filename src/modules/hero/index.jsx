@@ -32,7 +32,7 @@ function Hero() {
   ];
 
   return (
-    <div className="containers relative">
+    <div className="relative">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop
@@ -51,19 +51,19 @@ function Hero() {
           <img src={RightArrow} alt="right arrow next" />
         </button>
 
-        {slides.map((slide, index) => (
+        {slides.map((item, index) => (
           <SwiperSlide key={index} className="relative">
             <img
-              src={slide.image}
-              alt={slide.title}
+              src={item.image}
+              alt={item.title}
               className="w-full h-full object-cover"
             />
 
             <div className="absolute inset-0 z-10 flex flex-col items-center mt-15 text-center">
               <h2 className="text-white text-[36px] font-semibold">
-                {slide.title}
+                {item.title}
               </h2>
-              <p className="text-white mt-2.5 w-104">{slide.subtitle}</p>
+              <p className="text-white mt-2.5 w-104">{item.subtitle}</p>
             </div>
           </SwiperSlide>
         ))}
