@@ -1,7 +1,4 @@
-import Brands from "./modules/brands";
-import Header from "./modules/header";
-import Hero from "./modules/hero";
-import Services from "./modules/services";
+import { Brands, Header, Hero, Safe, Services } from "./modules";
 
 const App = () => {
   return (
@@ -11,6 +8,7 @@ const App = () => {
         <Hero />
         <Brands />
         <Services />
+        <Safe />
       </div>
     </>
   );

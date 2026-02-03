@@ -8,6 +8,7 @@ import Brand3 from "./brand-3.png";
 import Brand4 from "./brand-4.png";
 import Brand5 from "./brand-5.png";
 import Brand6 from "./brand-6.png";
+import Man from "./man.png";
 
 export {
   Logo,
@@ -20,4 +21,5 @@ export {
   Brand4,
   Brand5,
   Brand6,
+  Man,
 };
