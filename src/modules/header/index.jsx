@@ -4,7 +4,7 @@ import {
   faArrowRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import { Logo } from "../../assets/images";
-import { NavItem } from "../../components";
+import { NavItem, Button } from "../../components";
 
 const Header = () => {
   const navList = [
@@ -48,16 +48,16 @@ const Header = () => {
           <div className="font-semibold">+1 855 420 0000</div>
 
           <div className="flex gap-4">
-            <button className="cursor-pointer w-14.5 h-14.5 group rounded-full bg-[#F5F5F5]">
-              <FontAwesomeIcon
-                icon={faMoon}
-                className="text-[#555555] group-hover:text-black transition duration-300"
-              />
-            </button>
-
-            <button className="cursor-pointer bg-[#299764] hover:bg-[#077743] transition duration-300 text-white px-7.5 py-4.5 rounded-full flex items-center gap-3">
-              Login <FontAwesomeIcon icon={faArrowRightToBracket} />
-            </button>
+            <Button
+              icon={faMoon}
+              iconStyle={"text-[#555555] group-hover:text-black"}
+              extraStyle={"w-14.5 h-14.5 group bg-[#F5F5F5]"}
+            />
+            <Button
+              title={"Login"}
+              icon={faArrowRightToBracket}
+              extraStyle={"bg-[#299764] hover:bg-[#077743] px-7.5 py-4.5 gap-3"}
+            />
           </div>
         </div>
       </div>

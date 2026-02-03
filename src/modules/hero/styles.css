@@ -1,0 +1,51 @@
+/* paginations styleni gptdan oldim */
+.swiper-pagination {
+  bottom: 20px !important;
+  left: 20px !important;
+  width: auto !important;
+  justify-content: flex-start !important;
+  display: flex !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1 !important;
+  border-radius: 5px !important;
+  transition:
+    width 0.3s ease,
+    background 0.3s ease !important;
+  margin: 0 3px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 26px !important;
+  background: #ffffff !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 36px !important;
+  height: 36px !important;
+  background: #fff !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+  top: auto !important;
+  bottom: 18px !important;
+  left: auto !important;
+  right: 12px !important;
+}
+
+.swiper-button-prev {
+  right: 56px !important;
+}
+
+.swiper-navigation-icon {
+  display: none;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+}

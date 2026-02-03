@@ -16,7 +16,7 @@ const NavItem = ({ item }) => {
       </div>
 
       {item.dropdown && (
-        <div className="absolute left-0 mt-2.5 bg-white shadow-xl rounded-[20px] p-7 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+        <div className="absolute z-50 left-0 mt-2.5 bg-white shadow-xl rounded-[20px] p-7 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
           <ul className="flex flex-col gap-3 whitespace-nowrap">
             {item.dropdown.map((dItem, index) => (
               <li
