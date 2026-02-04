@@ -18,7 +18,7 @@ const Brands = () => {
   ];
 
   return (
-    <section className="py-40">
+    <section className="containers py-40">
       <h2 className="font-medium text-[24px]">More than 50 brands of cars</h2>
       <div className="mt-8.5 flex gap-16.5 justify-between">
         {brands.map((item) => (

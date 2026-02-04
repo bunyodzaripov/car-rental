@@ -1,0 +1,31 @@
+.testimonial-progressbar {
+  background: rgba(255, 255, 255, 0.3) !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.testimonial-progressbar .swiper-pagination-progressbar-fill {
+  background: white !important;
+  border-radius: 10px;
+}
+
+.gradient-text {
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #ea4335 19.83%,
+    #fbbc05 65%,
+    #4285f4 82.29%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.gradient-btn::before {
+  background: linear-gradient(
+    to right,
+    #ea4335 19.83%,
+    #fbbc05 65%,
+    #4285f4 82.29%
+  );
+}

@@ -1,15 +1,22 @@
-import { Brands, Footer, Header, Hero, Safe, Services } from "./modules";
+import {
+  Brands,
+  Footer,
+  Header,
+  Hero,
+  Safe,
+  Services,
+  Testimonials,
+} from "./modules";
 
 const App = () => {
   return (
     <>
       <Header />
-      <div className="containers">
-        <Hero />
-        <Brands />
-        <Services />
-        <Safe />
-      </div>
+      <Hero />
+      <Testimonials />
+      <Brands />
+      <Services />
+      <Safe />
       <Footer />
     </>
   );

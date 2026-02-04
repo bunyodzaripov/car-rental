@@ -12,6 +12,8 @@ import Instagram from "./Instagram.svg";
 import Twitter from "./twitter.svg";
 import Facebook from "./facebook.svg";
 import WhatsApp from "./whatsApp.svg";
+import Google from "./google.svg";
+import Stars from "./stars.svg";
 
 export {
   LeftArrow,
@@ -28,4 +30,6 @@ export {
   Twitter,
   Facebook,
   WhatsApp,
+  Google,
+  Stars,
 };
