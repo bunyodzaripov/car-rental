@@ -14,6 +14,10 @@ import Facebook from "./facebook.svg";
 import WhatsApp from "./whatsApp.svg";
 import Google from "./google.svg";
 import Stars from "./stars.svg";
+import Car1 from "./car-1.svg";
+import Car2 from "./car-2.svg";
+import Car3 from "./car-3.svg";
+import Car4 from "./car-4.svg";
 
 export {
   LeftArrow,
@@ -32,4 +36,8 @@ export {
   WhatsApp,
   Google,
   Stars,
+  Car1,
+  Car2,
+  Car3,
+  Car4,
 };
