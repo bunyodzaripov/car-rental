@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Button = ({ title, icon, iconStyle, extraStyle }) => {
+const Button = ({ title, icon, iconStyle, extraStyle, onClick }) => {
   return (
     <button
+      onClick={onClick}
       className={`text-[18px] text-white font-medium cursor-pointer rounded-full flex items-center justify-center transition duration-300 ${extraStyle} `}
     >
       {title && title}

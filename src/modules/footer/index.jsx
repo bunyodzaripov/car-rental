@@ -67,6 +67,10 @@ function Footer() {
     },
   ];
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="border-t border-[#E5E7EA] py-10">
       <div className="containers">
@@ -141,6 +145,7 @@ function Footer() {
             extraStyle={"w-17.5 h-17.5 bg-[#299764] hover:bg-[#077743]"}
             icon={faArrowUp}
             iconStyle={"w-[32px] h-[32px]"}
+            onClick={scrollToTop}
           />
         </div>
       </div>

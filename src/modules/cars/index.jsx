@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Car1 } from "../../assets/images";
+import { Car1, Car2, Car3, Car4, Car5, Car6 } from "../../assets/images";
 import { Button, CarsItem } from "../../components";
 
 function Cars() {
@@ -22,7 +22,7 @@ function Cars() {
       name: "Nissan Versa",
       category: "Compact",
       type: "Compact Car",
-      image: Car1,
+      image: Car2,
       seats: 5,
       transmission: "Automatic",
       age: "21+ Years",
@@ -33,7 +33,7 @@ function Cars() {
       name: "Toyota Corolla",
       category: "Compact",
       type: "Mid-size Car",
-      image: Car1,
+      image: Car3,
       seats: 5,
       transmission: "Automatic",
       age: "21+ Years",
@@ -44,7 +44,7 @@ function Cars() {
       name: "Nissan Rogue",
       category: "Sports cars",
       type: "Mid-size SUV",
-      image: Car1,
+      image: Car4,
       seats: 5,
       transmission: "Automatic",
       age: "21+ Years",
@@ -55,7 +55,7 @@ function Cars() {
       name: "Chevy Traverse",
       category: "Vans",
       type: "Full-size SUV",
-      image: Car1,
+      image: Car5,
       seats: 5,
       transmission: "Automatic",
       age: "21+ Years",
@@ -66,7 +66,7 @@ function Cars() {
       name: "Nissan Altima",
       category: "Sports cars",
       type: "Full-size Car",
-      image: Car1,
+      image: Car6,
       seats: 5,
       transmission: "Automatic",
       age: "21+ Years",

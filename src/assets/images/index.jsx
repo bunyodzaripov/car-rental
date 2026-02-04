@@ -12,6 +12,11 @@ import Man from "./man.png";
 import Avatar1 from "./avatar-1.png";
 import Avatar2 from "./avatar-2.png";
 import Car1 from "./car-1.png";
+import Car2 from "./car-2.png";
+import Car3 from "./car-3.png";
+import Car4 from "./car-4.png";
+import Car5 from "./car-5.png";
+import Car6 from "./car-6.png";
 export {
   Logo,
   HeroImg1,
@@ -27,4 +32,9 @@ export {
   Avatar1,
   Avatar2,
   Car1,
+  Car2,
+  Car3,
+  Car4,
+  Car5,
+  Car6,
 };
