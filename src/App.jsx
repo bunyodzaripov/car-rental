@@ -1,5 +1,6 @@
 import {
   Brands,
+  Cars,
   Footer,
   Header,
   Hero,
@@ -13,6 +14,7 @@ const App = () => {
     <>
       <Header />
       <Hero />
+      <Cars />
       <Testimonials />
       <Brands />
       <Services />

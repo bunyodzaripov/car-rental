@@ -11,7 +11,7 @@ import Brand6 from "./brand-6.png";
 import Man from "./man.png";
 import Avatar1 from "./avatar-1.png";
 import Avatar2 from "./avatar-2.png";
-
+import Car1 from "./car-1.png";
 export {
   Logo,
   HeroImg1,
@@ -26,4 +26,5 @@ export {
   Man,
   Avatar1,
   Avatar2,
+  Car1,
 };

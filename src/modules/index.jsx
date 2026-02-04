@@ -5,5 +5,6 @@ import Safe from "./safe";
 import Services from "./services";
 import Footer from "./footer";
 import Testimonials from "./testimonials";
+import Cars from "./cars";
 
-export { Brands, Header, Hero, Safe, Services, Footer, Testimonials };
+export { Brands, Header, Hero, Safe, Services, Footer, Testimonials, Cars };

@@ -8,7 +8,7 @@ import Wallet from "./wallet.svg";
 import Flask from "./flask.svg";
 import Folder from "./folder.svg";
 import Heart from "./heart.svg";
-import Instagram from "./Instagram.svg";
+import Instagram from "./instagram.svg";
 import Twitter from "./twitter.svg";
 import Facebook from "./facebook.svg";
 import WhatsApp from "./whatsApp.svg";
